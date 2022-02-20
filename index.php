@@ -68,7 +68,7 @@
         }
         $data = mysqli_query($koneksi, $query);
             if(!$query){
-                die('SQL Error: ' . mysqli_error($koneksi));
+                die('SQL Error: '. mysqli_error($koneksi));
             }
             else{
                 echo '
