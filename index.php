@@ -95,7 +95,8 @@
                     </table>';
             }
         if(!empty($cari) && $i == mysqli_fetch_array($data)) {
-            echo '<h5 class="text-center">'. $cari .' tidak ditemukan</h5>';
+            sleep(2);
+            echo '<h5 class="text-center">Data '. $cari .' tidak dapat ditemukan</h5>';
         }
         mysqli_free_result($data);
         mysqli_close($koneksi);
