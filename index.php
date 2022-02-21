@@ -3,6 +3,7 @@
 <head>
     <?php include 'head.php'; 
     $page = 'Sport News';
+    $cari = '';
     ?>
     <title><?= $page?></title>
 </head>
